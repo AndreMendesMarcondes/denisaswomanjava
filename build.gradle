@@ -1,6 +1,5 @@
 plugins {
     id "java"
-    id "io.spring.dependency-management" version "1.0.9.RELEASE"
 }
 
 group = "com.andremmarcondes.denisaswomanjava"
@@ -14,8 +13,4 @@ repositories {
 dependencies {
     implementation "org.seleniumhq.selenium:selenium-java:3.141.59"
     implementation "org.testcontainers:testcontainers:1.14.3"
-}
-
-test {
-    useJUnitPlatform()
 }
